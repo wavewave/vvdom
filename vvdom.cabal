@@ -4,6 +4,8 @@ synopsis:            virtual virtual dom
 description:         virtual virtual dom
 author:              Ian-Woo Kim
 maintainer:          ianwookim@gmail.com
+license:             BSD3
+license-file:        LICENSE
 category:            Web
 build-type:          Simple
 cabal-version:       >=1.10
