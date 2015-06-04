@@ -1,0 +1,27 @@
+name:                vvdom
+version:             0.0
+synopsis:            virtual virtual dom
+description:         virtual virtual dom
+author:              Ian-Woo Kim
+maintainer:          ianwookim@gmail.com
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  
+
+library
+  hs-source-dirs:      src
+  ghcjs-options: -O2 -Wall -fno-warn-unused-do-bind
+  exposed-modules:     
+                       Polymer.Core
+                       Polymer.Paper
+                       Vanilla.HTML
+                       VVDOM.Types
+  other-modules:       
+  build-depends:       base >=4.7 && < 4.9,
+                       aeson,
+                       ghcjs-base,
+                       ghcjs-vdom
+  default-language:    Haskell2010
+  js-sources: 
+
