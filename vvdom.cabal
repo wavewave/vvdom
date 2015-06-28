@@ -15,7 +15,8 @@ library
   hs-source-dirs:      src
   ghcjs-options: -O2 -Wall -fno-warn-unused-do-bind
   exposed-modules:     
-                       Polymer.Core
+                       Polymer.Iron
+                       Polymer.Neon
                        Polymer.Paper
                        Vanilla.HTML
                        VVDOM.Types
